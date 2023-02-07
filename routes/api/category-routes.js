@@ -130,7 +130,7 @@ router.delete("/:id", (req, res) => {
     })
     .catch((error) => {
       res.status(400).send({
-        message: "Error deleting Category.",
+        message: "Error deleting Category!",
       });
     });
 });
